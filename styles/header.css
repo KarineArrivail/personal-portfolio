@@ -1,0 +1,62 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--secondary-color);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.lang, .toggle {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lang:hover, .toggle:hover {
+  background-color: var(--deco-color); 
+  border-radius: 4px; 
+  padding: 2px;
+}
+
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 25px;  /* Espaçamento entre os conjuntos (ícone + texto) */
+}
+
+.nav-content a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
+
+.nav-content a:hover {
+  transition: 0.1s;
+  color: var(--deco-color);
+
+
+}
+
+
+
+.nav-content .icon {
+  width: 25px;
+  margin-right: -19px;  /* Distância pequena entre o ícone e o texto */
+}
+
+.icon:hover {
+background-color: var(--deco-color); 
+padding: 4px;
+border-radius: 4px; 
+
+}

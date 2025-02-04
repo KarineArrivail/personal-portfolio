@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--primary-color);
+}
+
 :root {
   --primary-color: #ffff;
   --secondary-color:#BF91A9;
