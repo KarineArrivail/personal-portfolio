@@ -1,0 +1,8 @@
+
+section:nth-of-type(odd) {
+  background-color: var(--primary-color); /* Light gray for odd sections */
+}
+
+section:nth-of-type(even) {
+  background-color: var(--secondary-color); /* White for even sections */
+}

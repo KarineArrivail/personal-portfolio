@@ -6,6 +6,7 @@
 
 body {
   background-color: var(--primary-color);
+  font-family: 'DM sans'sans-serif;
 }
 
 :root {
@@ -14,7 +15,6 @@ body {
   --deco-color:#741849;
   --font-family: 'DM sans' sans-serif;
   --font-nav: 800 50px  'DM sans' sans-serif;
-  --font-h1:  700 120px 'DM sans' sans-serif;
   --font-text: 400 70px 'DM sans' sans-serif;
   --font-h2: 500 100px  'DM sans' sans-serif;
 }
