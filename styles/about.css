@@ -16,11 +16,10 @@ h1 {
 
 
 .profile-pic {
-    width: 20rem;
-    transform: translateX(190%);
-    z-index: 1000%;
+   width: 20rem;
+   transform: translateX(190%);
    margin-top: 3rem;
-   box-shadow: 0 3px 2rem var(--secondary-color);
+   box-shadow: 0 4px 6px rgb(139, 130, 137);
    border-radius: 50%;
 
  
@@ -58,8 +57,8 @@ h1::after {
   z-index: 1;
 }
 
-.star1 { top: 33%; left: 41%; }
-.star2 { top: 33%; right: 40%; }
+.star1 { top: 33%; left: 39%; }
+.star2 { top: 33%; right: 39%; }
 .star3 { top: 50%; left: 37%; }
 .star4 { bottom: 30%; left: 40%; }
 .star5 { bottom: 45%; right: 37%; }

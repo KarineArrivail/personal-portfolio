@@ -1,11 +1,17 @@
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 25px;
-  background-color: var(--secondary-color);
-  box-shadow: 0 1px 2px var(--deco-color);
-  
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Garante que fique sobre outros elementos */
+  background-color: #790853;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgb(169, 153, 153); 
 }
 
 .buttons {
@@ -23,7 +29,7 @@ nav {
 }
 
 .lang:hover, .toggle:hover {
-  background-color: var(--deco-color); 
+  background-color:rgb(180, 0, 92); 
   border-radius: 4px; 
   padding: 2px;
 }
@@ -46,7 +52,7 @@ nav {
 
 .nav-content a:hover {
   transition: 0.1s;
-  color: var(--deco-color);
+  color:rgb(250, 0, 92);  
 
 
 }
@@ -59,7 +65,7 @@ nav {
 }
 
 .icon:hover {
-background-color: var(--deco-color); 
+background-color:rgb(180, 0, 92); 
 padding: 4px;
 border-radius: 4px; 
 
