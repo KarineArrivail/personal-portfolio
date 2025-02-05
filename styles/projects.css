@@ -12,6 +12,19 @@
   margin-bottom: 80px;
 }
 
+
+.projh2::after {
+  content: '';
+  position: absolute;
+  width: 90px;
+  height: 4px;
+  background-color: #4c0434;
+  bottom: -300px;
+  left: 50%;
+  transform: translateX(-54%);
+  border-radius: 2px;
+}
+
 .projects-container {
   display: flex;
   flex-wrap: wrap;
@@ -25,7 +38,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 300px;
-  text-align: left;
+  text-align: center;
   transition: transform 0.3s ease;
 }
 

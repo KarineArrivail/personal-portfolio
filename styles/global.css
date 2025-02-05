@@ -10,8 +10,8 @@ body {
   padding-top: 60px;
 }
 
-:root {
-  --primary-color: #ffff;
-  --secondary-color:#741849;
-  --font-family: 'DM sans' sans-serif;
+
+section {
+  margin-bottom: 300px;
+
 }

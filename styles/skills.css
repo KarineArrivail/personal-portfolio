@@ -1,0 +1,48 @@
+ .skills-img {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+
+
+.img {
+  margin: 0 50px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s ease;
+}
+
+h2 {
+  font-size: 2.0rem;
+  margin: 15px;
+  text-align: center;
+  margin: 100px 0;
+  font-weight: 500;
+  font: 'DM sans' sans-serif;
+}
+
+h2::after {
+  content: '';
+  position: absolute;
+  width: 130px;
+  height: 4px;
+  background-color: #4c0434;
+  bottom: -1120px;
+  left: 50%;
+  transform: translateX(-54%);
+  border-radius: 2px;
+}
+.css:hover {
+  transform: translateY(-10px);
+}
+
+.html:hover {
+
+  transform: translateY(-10px);
+}
+
+.figma:hover {
+  transform: translateY(-10px);
+}

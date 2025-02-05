@@ -29,7 +29,7 @@ nav {
 }
 
 .lang:hover, .toggle:hover {
-  background-color:rgb(180, 0, 92); 
+  background-color:#b4005c; 
   border-radius: 4px; 
   padding: 2px;
 }
@@ -45,8 +45,8 @@ nav {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-family: var(--font-family);
-  color: var(--primary-color);
+  font-family:'DM sans' sans-serif;
+  color: white;
   margin-right: 50px;
 }
 
