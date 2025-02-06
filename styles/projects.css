@@ -13,7 +13,7 @@
 }
 
 
-.projh2::after {
+#projects h2:after {
   content: '';
   position: absolute;
   width: 90px;
