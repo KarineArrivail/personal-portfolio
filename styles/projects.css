@@ -1,5 +1,4 @@
 #projects {
-  margin-top: 250px;
   text-align: center;
   padding: 50px 20px;
   background-color: #f9f9f9;
@@ -19,7 +18,7 @@
   width: 90px;
   height: 4px;
   background-color: #4c0434;
-  bottom: -300px;
+  bottom: -360px;
   left: 50%;
   transform: translateX(-54%);
   border-radius: 2px;

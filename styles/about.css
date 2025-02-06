@@ -28,14 +28,15 @@ h1 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 45px;
   display: flex;
   justify-content: center;
   word-wrap: break-word;
   max-width: 50rem;
   margin-left: 25%;
   margin-top: 2rem;
-  font: var(--font-h3);
+  font: var(--font-family);
+  text-align: center;
 }
 
 h1::after {
@@ -59,7 +60,7 @@ h1::after {
 }
 
 .star1 { top: 33%; left: 39%; }
-.star2 { top: 33%; right: 39%; }
+.star2 { top: 33%; right: 38%; }
 .star3 { top: 50%; left: 37%; }
 .star4 { bottom: 30%; left: 40%; }
 .star5 { bottom: 45%; right: 37%; }
