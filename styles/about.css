@@ -1,67 +1,73 @@
-
 #about {
-  position: relative;
-}
-
-h1 {
-  font-size: 30px;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 4rem;
-  position: relative;
-  font-family: var(--font-family);
-  font-weight: 600;
-
-
+  align-items: center;
+  text-align: center;
+  max-width: 50rem;
+  margin: -16px auto 10rem;
+  overflow: hidden;
   
 }
 
-
-.profile-pic {
-   width: 20rem;
-   transform: translateX(190%);
-   margin-top: 3rem;
-   box-shadow: 0 4px 6px rgb(139, 130, 137);
-   border-radius: 50%;
-
- 
-}
-
-h3 {
-  font-size: 45px;
+.profile-pic-container {
   display: flex;
   justify-content: center;
-  word-wrap: break-word;
-  max-width: 50rem;
-  margin-left: 25%;
+  align-items: center;
+  margin-top: 3rem;
+  box-shadow: 0 6px 24px 2px rgba(124, 122, 122, 0.6);
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+
+h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
-  font: var(--font-family);
-  text-align: center;
+  position: relative;
+  font-family: var(--font-family);
+  font-weight: 500;
 }
 
 h1::after {
   content: '';
   position: absolute;
-  width: 150px;
+  width: 100px;
   height: 4px;
-  background-color: #4c0434;
+  background-color:#b7b5e0;
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 2px;
 }
 
-
-.star {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  z-index: 1;
+h3 {
+  font-size: 32px;
+  width: 100%;
+  margin: 2rem auto;
+  font: var(--font-family);
+  letter-spacing: 2px;
+  text-align: center;
 }
 
-.star1 { top: 33%; left: 39%; }
-.star2 { top: 33%; right: 38%; }
-.star3 { top: 50%; left: 37%; }
-.star4 { bottom: 30%; left: 40%; }
-.star5 { bottom: 45%; right: 37%; }
-.star6 { bottom: 30%; right: 39%; }

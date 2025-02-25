@@ -2,16 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 
 body {
   background-color: var(--primary-color);
-  font-family: 'DM sans'sans-serif;
+  font-family: "Delicious Handrawn", serif;
   padding-top: 60px;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: -24rem; /* Adjust this value based on the height of your nav bar */
+}
 
 section {
-  margin-bottom: 300px;
-  scroll-margin-top: 200px; 
+  margin-bottom: 10vh;
+  scroll-margin-top: 10vh;
+  
 }

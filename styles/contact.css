@@ -2,8 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 100px;
-  margin-top: 580px;
+  margin-top: 130px;
 }
 
 #social-links h2 {
@@ -18,9 +17,9 @@
 #social-links h2:after {
   content: '';
   position: absolute;
-  width: 90px;
+  width: 70px;
   height: 4px;
-  background-color: #4c0434;
+  background-color:#B7B5E0;
   bottom: -1rem;
   left: 50%;
   transform: translateX(-54%);
@@ -30,13 +29,13 @@
 .media {
   display: flex;
   justify-content: center;
-  margin-top: 6rem;
+  margin-top: 4rem;
   gap: 50px;
 }
 
 .media img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   transition: transform 0.3s ease;
 }
 

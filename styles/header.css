@@ -3,70 +3,59 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px;
+  padding: 28px;
   position: fixed; 
   top: 0; 
   left: 0;
   right: 0;
   z-index: 1000; /* Garante que fique sobre outros elementos */
-  background-color: #790853;
-  padding: 10px;
-  box-shadow: 0 2px 10px rgb(169, 153, 153); 
+  background-color: #b7b5e0;
+
 }
 
-.buttons {
+.heart {
+  width: 20px;
   display: flex;
   align-items: center;
-  gap: 30px;
-  margin-left: 20px;
+  justify-content: space-between;
 }
 
-.lang, .toggle {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  transition: 0.3s;
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin-left: 10px;
+  gap: 10px;
+
 }
 
-.lang:hover, .toggle:hover {
-  background-color:#b4005c; 
-  border-radius: 4px; 
-  padding: 2px;
+.name:hover {
+  transition: color 0.3s ease-in-out;
+  color:rgb(255, 255, 255);  
 }
 
 
 .nav-content {
   display: flex;
   align-items: center;
-  gap: 25px;  /* Espaçamento entre os conjuntos (ícone + texto) */
+  gap: 10px;  
 }
 
 .nav-content a {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-family:'DM sans' sans-serif;
-  color: white;
-  margin-right: 50px;
+  color: rgb(0, 0, 0);
+  margin-right: 20px;
+  
+
 }
 
 .nav-content a:hover {
-  transition: 0.1s;
-  color:rgb(250, 0, 92);  
-
-
+  transition: color 0.3s ease-in-out;
+  color:rgb(255, 255, 255);  
 }
 
 
-
-.nav-content .icon {
-  width: 25px;
-  margin-right: -19px;  /* Distância pequena entre o ícone e o texto */
-}
-
-.icon:hover {
-background-color:rgb(180, 0, 92); 
-padding: 4px;
-border-radius: 4px; 
-
-}

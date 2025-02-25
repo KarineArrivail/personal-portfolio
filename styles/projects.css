@@ -15,10 +15,10 @@
 #projects h2:after {
   content: '';
   position: absolute;
-  width: 90px;
+  width: 50px;
   height: 4px;
-  background-color: #4c0434;
-  bottom: -360px;
+  background-color: #b7b5e0;
+  bottom: -21rem;
   left: 50%;
   transform: translateX(-54%);
   border-radius: 2px;
@@ -65,16 +65,17 @@
 .project-card a {
   display: block;
   text-align: center;
-  background: #ff00aa;
-  color: #fff;
+  background: #b7b5e0;
+  color: #000000;
   padding: 10px;
   text-decoration: none;
   font-weight: bold;
   margin: 15px;
   border-radius: 5px;
+  letter-spacing: 1px;
 }
 
 .project-card a:hover {
-  background: #ff8fd8;
+  background: #8583b8;
 }
 

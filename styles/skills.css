@@ -1,8 +1,19 @@
- .skills-img {
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  text-align: center;
+}
+
+
+
+.skills-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 250px;
+  margin: 5rem auto;
 }
 
 
@@ -16,23 +27,23 @@
 
 #skills h2 {
   font-size: 2.0rem;
-  margin: 15px;
+  margin: 0 ;
   text-align: center;
-  margin: 100px 0;
   font-weight: 500;
-  font: 'DM sans' sans-serif;
+  position: relative;
 }
 
 #skills h2:after {
   content: '';
   position: absolute;
-  width: 130px;
+  width: 70px;
   height: 4px;
-  background-color: #4c0434;
-  bottom: -1170px;
+  background-color: #b7b5e0;
+  bottom: -1rem;
   left: 50%;
   transform: translateX(-54%);
   border-radius: 2px;
+  margin: 10rem 0 auto;
 }
 .css:hover {
   transform: translateY(-10px);
